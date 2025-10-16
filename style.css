@@ -1,0 +1,195 @@
+body {
+    /* Letra */
+    font-family: 'Times New Roman', Times, serif;
+    /* Letra */
+    margin: 0px;
+    padding: 0 10%;
+    background-color: white;
+    line-height: 1.6;
+
+
+}
+
+.contener {
+    background-color: rgb(40, 198, 238);
+    width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.yo {
+    text-align: center;
+    color: red;
+}
+
+label {
+    display: block;
+    margin: 10px 0px 5px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* header */
+header {
+    background-color: rgb(40, 198, 238);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* capitalize: pone las primeras letras en mayusculas 
+lowercase: minusculas
+uppercase:mayusculas */
+header h1 {
+    text-transform: capitalize;
+    /* Espacio entre las letras*/
+    letter-spacing: 2px;
+
+}
+
+header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: #ffe;
+}
+
+/* Navegador*/
+
+nav {
+    background-color: black;
+
+    margin: 0 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* seccion principal*/
+
+.contenedor {
+
+    background-color: rgb(40, 198, 238);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+    padding: 20px;
+
+}
+
+/* Titulos*/
+h3 {
+    color: red;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+
+}
+
+p {
+
+    text-align: justify;
+    margin: 5px;
+    font-size: 1em;
+}
+
+/* Imagenes*/
+
+img {
+    display: block;
+    width: 50px;
+    height: 50;
+    border-radius: 10px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+
+}
+
+.dubra {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+
+}
+
+
+/*Listas*/
+ul,
+ol {
+    margin-left: 40px;
+
+}
+
+li {
+    margin: 5px 0;
+}
+a{
+    color: rgb(40, 198, 238);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(40, 198, 238);
+    text-decoration: underline;
+}
+
+/* Tabla */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffe;
+}
+
+th,td{
+border: 1px solid darkgoldenrod;
+padding: 10px;
+text-align: center;
+font-size: 0.90em;
+    
+}
+th{
+    background-color: rgba(20, 18, 136, 0.1);
+    color: black;
+}
+tr :nth-child(even){
+    background-color: beige;
+   
+}

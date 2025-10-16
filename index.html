@@ -1,161 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mi</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-    body {
-        font-family: 'Times New Roman', Times, serif;
-        margin: 0px;
-        padding: 20px;
-    
-    
-        }
-    
-    .contenedor{
-        background-color: white;
-        width: 680px;
-        margin: 0 auto;
-        padding: 20px;
-        border-radius: 16px;
-        box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
-    
-    }
-    
-    .yo{
-        text-align: center;
-        color: green;
-    }
-    
-    label{
-        display: block;
-        margin: 10px 0px 5px;
-        font-weight: bold;
-    }
-    
-    input, textarea, select{
-    
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px dashed #ccc;
-        border-radius: 4px;
-    }
-    
-    input[type="submit"]{
-        background-color: green;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-    }
-    
-    </style>
-    
+
+
 
 
 
 <body>
-    <h1 style="text-align: center;" >Dubraiker Daniel Avendaño Rodríguez </h1>
+    <!--Header-->
+    <header>
+        <h1  id="volver-inicio">Dubraiker Daniel Avendaño Rodríguez </h1>
+        <h2>Gimnasio </h2>
 
-    <h2>Quién Soy</h2>
-    <p>Mi nombre es Dubraiker Daniel Avendaño Rodríguez, un joven comprometido con el aprendizaje,
-        la superación personal y el desarrollo profesional. Me caracterizo por ser una persona responsable,
-        con disposición para asumir nuevos retos y con un profundo interés en el área de la tecnología y el
-        mantenimiento de sistemas informáticos.
-        Considero que el conocimiento es una herramienta fundamental para transformar
-        el entorno y generar soluciones innovadoras a los desafíos actuales.
-    </p>
+    </header>
 
-    <h2>Mi pasion por el deporte GYM</h2>
+    <!--Naver-->
 
-    <p> El gimnasio es mi espacio de concentración y superación.
-         Cada entrenamiento representa un nuevo reto que me impulsa a ser mejor que ayer,
-          a fortalecer mi cuerpo y mi mente, y a no rendirme ante las dificultades.
-           El deporte me ha enseñado que los resultados se construyen con esfuerzo, paciencia y compromiso,
-         y que cada gota de sudor es una muestra del progreso que uno logra con determinación.</p>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#Redes">Redes</a>
+        <a href="#pasatiempo">Mis pasatiempos</a>
+        <a href="#temas">Mis temas favoritos</a>
 
-         <center><img  width="300px" src="./img/Dubraiker.png" alt=" Dubraiker"></center>
+    </nav>
+    <!--Contenedor principal-->
+    <main>
 
-         <h3>Redes Sociales</h3>
+        <div class="contenedor">
+            <h3 id="inicio">Quién Soy</h3>
 
-         <ul>
-            <li><a href="https://www.instagram.com/dubraiker_18/" target="_blank">
-                <img src="./img/instagram.png" alt="Logo de instagram" width="50" height="50">
-              </a></li>
+            <p>Mi nombre es Dubraiker Daniel Avendaño Rodríguez, un joven comprometido con el aprendizaje,
+                la superación personal y el desarrollo profesional. Me caracterizo por ser una persona responsable,
+                con disposición para asumir nuevos retos y con un profundo interés en el área de la tecnología y el
+                mantenimiento de sistemas informáticos.
+                Considero que el conocimiento es una herramienta fundamental para transformar
+                el entorno y generar soluciones innovadoras a los desafíos actuales.
+            </p>
 
-              <li><a href="https://www.facebook.com/share/17RB3JhzJF/" target="_blank">
-                <img src="./img/facebook.png" alt="Logo de facebook" width="50" height="50">
-              </a></li>
-            
+            <h3>Mi pasion por el deporte GYM</h3>
 
-         </ul>
+            <p> El gimnasio es mi espacio de concentración y superación.
+                Cada entrenamiento representa un nuevo reto que me impulsa a ser mejor que ayer,
+                a fortalecer mi cuerpo y mi mente, y a no rendirme ante las dificultades.
+                El deporte me ha enseñado que los resultados se construyen con esfuerzo, paciencia y compromiso,
+                y que cada gota de sudor es una muestra del progreso que uno logra con determinación.</p>
 
-         <H3>Mis Pasatiempos</H3>
-         <ul type="square">
-            <li>Ir al gimnasio</li>
-            <li>Ver Anime</li>
-            <li>Escuchar música</li>
-         </ul>
+            <img class="dubra" src="./img/Dubraiker.png" alt=" Dubraiker">
 
-         <h3>Mis Temas Favoritos</h3>
-         <ol>
-            <li>Tecnología y sistemas informáticos</li>
-            <li>Entrenamiento físico y gimnasio</li>
-            <li>Deporte y vida saludable</li>
-         </ol>
-
-         <table border="6">
-            <thead>
-                <tr><Th>Tema Favorito</Th> <th>Descripción</th> <th>Símbolo</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>💪 Gimnasio</td> <td>Me gusta entrenar para mantenerme en forma y con buena energía.</td> <td>🏋️‍♂️</td></tr>
-                <tr><td>⚽ Deporte</td> <td>Disfruto practicar deportes que fortalecen mi cuerpo y mente.</td> <td>🏆</td></tr>
-                <tr><td>💻 Tecnología</td> <td>Me interesa aprender sobre sistemas informáticos y computación.</td> <td>🖥️</td></tr>
-                <tr><td>🎵 Música</td> <td>Escucho música motivacional que me inspira a seguir mejorando.</td> <td>🎧</td></tr>
-            </tbody>
-         </table>
-
-
-         <div class="contenedor">
-
-            <h1 class="yo">Formulario de Contar</h1>
-            <form action="#">
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre_usuario" id="nombre" minlength="3" maxlength="30" required>
-    
-                <label for="correo">Correo:</label>
-                <input type="email" name="correo_usuario" id="correo">
-    
-                <label for="telefono">Celular:</label>
-                <input type="tel" name="telefono" id="telefono">
-    
-                <label for="mensage"> Deja tu mensaje</label>
-                <textarea name="mensage" id="mensaje" rows="4"></textarea>
-    
-                <label for="nacionalidad "> Selecciona tu pais</label>
-                <select name="nacionalidad" id="nacionalidad">
-                    <option value="" selected disabled>Selecciona tu pais</option>
-                    <option value="Co">Colombia</option>
-                    <option value="Ve">Venezuela</option>
-                    <option value="Me">Mexico</option>
-                    <option value="Ar">Argentina</option>
-                    <option value="Es">España</option>
-                </select>
-    
-                <input type="submit" value="Enviar informacion">
-                
-    
-    
-            </form>
         </div>
 
-         
+        <div class="contenedor">
+            <h3 id="Redes">Redes Sociales</h3>
+
+            <ul>
+                <li><a href="https://www.instagram.com/dubraiker_18/" target="_blank">
+                        <img src="./img/instagram.png" alt="Logo de instagram" width="50" height="50">
+                    </a></li>
+
+                <li><a href="https://www.facebook.com/share/17RB3JhzJF/" target="_blank">
+                        <img src="./img/facebook.png" alt="Logo de facebook" width="50" height="50">
+                    </a></li>
+
+
+            </ul>
+
+        </div>
+
+        <!--Mis pasatiempos-->
+
+        <div class="contenedor">
+            <H3 id="pasatiempo">Mis Pasatiempos</H3>
+            <ul type="square">
+                <li>Ir al gimnasio</li>
+                <li>Ver Anime</li>
+                <li>Escuchar música</li>
+            </ul>
+        </div>
+
+
+        <!-- Mistemas favoritos-->
+
+        <div class="contenedor">
+            <h3 id="temas">Mis Temas Favoritos</h3>
+            <ol>
+                <li>Tecnología y sistemas informáticos</li>
+                <li>Entrenamiento físico y gimnasio</li>
+                <li>Deporte y vida saludable</li>
+            </ol>
+
+        </div>
+
+
+        <!--Tabla-->
+        <div class="contenedor">
+            <table border="6">
+                <thead>
+                    <tr>
+                        <Th>Tema Favorito</Th>
+                        <th>Descripción</th>
+                        <th>Símbolo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>💪 Gimnasio</td>
+                        <td>Me gusta entrenar para mantenerme en forma y con buena energía.</td>
+                        <td>🏋️‍♂️</td>
+                    </tr>
+                    <tr>
+                        <td>⚽ Deporte</td>
+                        <td>Disfruto practicar deportes que fortalecen mi cuerpo y mente.</td>
+                        <td>🏆</td>
+                    </tr>
+                    <tr>
+                        <td>💻 Tecnología</td>
+                        <td>Me interesa aprender sobre sistemas informáticos y computación.</td>
+                        <td>🖥️</td>
+                    </tr>
+                    <tr>
+                        <td>🎵 Música</td>
+                        <td>Escucho música motivacional que me inspira a seguir mejorando.</td>
+                        <td>🎧</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+    </main>
+
+
+    <div class="contener">
+
+        <h1 class="yo">Formulario de Contar</h1>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre_usuario" id="nombre" minlength="3" maxlength="30" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo_usuario" id="correo">
+
+            <label for="telefono">Celular:</label>
+            <input type="tel" name="telefono" id="telefono">
+
+            <label for="mensage"> Deja tu mensaje</label>
+            <textarea name="mensage" id="mensaje" rows="4"></textarea>
+
+            <label for="nacionalidad "> Selecciona tu pais</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="" selected disabled>Selecciona tu pais</option>
+                <option value="Co">Colombia</option>
+                <option value="Ve">Venezuela</option>
+                <option value="Me">Mexico</option>
+                <option value="Ar">Argentina</option>
+                <option value="Es">España</option>
+            </select>
+
+            <input type="submit" value="Enviar informacion">
+
+
+
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Dubraiker Daniel Avendaño Rodríguez</p>
+        <p>Estudiante de Técnica Profesional en Mantenimiento de Sistemas Informáticos</p>
+        <p>
+            <a href="#volver-inicio" class="volver">Volver al inicio</a>
+        </p>
+    </footer>
 
 </body>
 
